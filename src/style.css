@@ -36,6 +36,8 @@ h1{
 p{
   margin-bottom: 4rem;
   opacity: 0.7;
+
+  font-size: 1.4rem;
 }
 
 input, button{
@@ -60,4 +62,16 @@ button{
 button:hover{
   filter: brightness(1.2);
   cursor: pointer;
+}
+
+#resposta{
+  margin-top: 3rem; 
+  transition: opacity .1s;
+}
+
+#resposta div{
+  font-size: 1.6rem;  
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 1rem;
 }
