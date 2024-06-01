@@ -45,5 +45,6 @@ function fazerPergunta() {
   // sumir resposta depois de 3s
   setTimeout(function () {
     elementoResposta.style.opacity = 0;
+    inputPergunta.value = "";
   }, 3000);
 }
