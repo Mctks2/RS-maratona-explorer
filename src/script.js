@@ -26,6 +26,9 @@ const respostas = [
 
 // Botão fazer pergunta 
 function fazerPergunta() {
+  
+   elementoResposta.style.opacity = 1;
+  
   if (inputPergunta.value == "") {
     alert("Digite sua pergunta");
     return;
